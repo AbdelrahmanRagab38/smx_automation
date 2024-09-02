@@ -55,6 +55,7 @@ def generate_column_mappings(sql_query):
 
 # Streamlit app
 def main():
+    st.markdown("<h1 style='text-align: center; color: green;'>Qeema Tools</h1>", unsafe_allow_html=True)
     st.title("SQL to Excel Mapping Generator")
 
     # Text area for SQL query input
